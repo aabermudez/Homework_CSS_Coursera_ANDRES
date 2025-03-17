@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', 'Verdana' 'sans-serif';
+    font-size: 12px;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: hsl(62, 100%, 83%);
+}
+
+nav {
+    background-color: #acff8c;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #cfd19d;
+}
+
+main {
+    background-color: #7ab1d1;
+}
+
+li {
+    display: inline-block;
+    width: 200px;
+}
+
+h1 {
+    font-family: 'Comic Sans MS', 'Chalkboard', 'sans-serif';
+    font-size: 20px;
+    color: #b80404;
+}
+
+p {
+    background-color: rgb(240, 191, 191);
+    line-height: 20px;
+}
