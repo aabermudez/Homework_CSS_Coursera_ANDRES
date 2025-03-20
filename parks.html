@@ -11,19 +11,24 @@
 
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="neighborhood.html">Neighborhood Walks</a></li>
-        <li><a href="parks.html">Walks in the Park</a></li>
-      </ul>
-    </nav>
-    <img src="images/BaconGallupPark.jpg" width="200" alt="Brown Labradoodle sitting next to a statue.">
+    <a href= "#main_content" style="display:block">Skip to main content</a>
+    <div id="modify_header">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="neighborhood.html">Neighborhood Walks</a></li>
+          <li><a href="parks.html" class="current">Walks in the Park</a></li>
+        </ul>
+      </nav>
+      <div id="modify_header_image">
+        <img src="images/BaconGallupPark.jpg" width="200" alt="Brown Labradoodle sitting next to a statue.">
+      </div>
+  </div>
     <h1>Michigan Parks</h1>
 
   </header>
-  <main>
-    <div>
+  <main id="main_content">
+    <div id="walks_in_the_park">
       <img src="images/bacon_in_the_woods.png" alt="brown labradoodle sitting near a stream in a wooded setting"
         width="100">
       <img src="images/bacon_near_the_fort.png"
@@ -35,9 +40,7 @@
       <img src="images/mist_over_huron_river.JPG" alt="the mist rising over a river in the morning" width="100">
       <img src="images/munising.jpg" alt="small waterfall" width="100">
       <img src="images/reflected_tree.JPG" alt="reflection of a lake and trees" width="100">
-
     </div>
-
   </main>
   <footer>
     <p>This page was originally created by Colleen van Lent for the <a

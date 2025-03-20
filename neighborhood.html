@@ -11,18 +11,25 @@
 
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="neighborhood.html">Neighborhood Walks</a></li>
-        <li><a href="parks.html">Walks in the Park</a></li>
-      </ul>
-    </nav>
-    <img src="images/BaconGallupPark.jpg" width="200" alt="Brown Labradoodle sitting next to a statue.">
+    <a href= "#main_content" style="display:block">Skip to main content</a>
+
+    <div id="modify_header">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="neighborhood.html" class="current">Neighborhood Walks</a></li>
+          <li><a href="parks.html">Walks in the Park</a></li>
+        </ul>
+      </nav>
+      <div id="modify_header_image">
+        <img src="images/BaconGallupPark.jpg" width="200" alt="Brown Labradoodle sitting next to a statue.">
+      </div>
+    </div>
+
     <h1>Neighborhood Walks</h1>
   </header>
-  <main>
-    <div>
+  <main id="main_content">
+    <div id="neighborhood_walks">
       <img src="images/bend_in_the_road.png"
         alt="a purple tree stands in contrast to the green leaved trees along a bend in the road" width="100">
       <img src="images/pink_blossoms.png" alt="small pink blossoms on an otherwise green leaved tree" width="100">
